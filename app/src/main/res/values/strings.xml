@@ -36,5 +36,12 @@
 	a file in the "src/main/res/layout" directory.
 	-->
     <string name="hello_world">Hello world!</string>
+	
+	<!--
+	The tutorial told me to hardcode the text of the
+	OK button - - but I had read elsewhere not to do
+	that.
+	-->
+	<string name = "ok_button">Okeedokee</string>
 
 </resources>

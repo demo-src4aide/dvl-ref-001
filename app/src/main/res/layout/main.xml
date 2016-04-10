@@ -1,11 +1,25 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center">
+    android:gravity="center"
+	android:orientation="vertical">
+	<!--
+	The 'android_orientation' attribute must have a
+	value of 'vertical' if to assure that one item in
+	this layout appear below the other.
+	-->
 
     <TextView
         android:text="@string/hello_world"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+	
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+		android:text="@string/ok_button"
+		android:onClick="do_for_okay"
+		/>
 
 </LinearLayout>
