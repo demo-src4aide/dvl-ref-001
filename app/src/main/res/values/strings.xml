@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">dvsmp01</string>
+	<!--
+	The following string is referenced in the
+	app's manifest file ('AndroidManifest.xml')
+	In the <application> tag it is referenced
+	as the value of the 'android:label' attribute.
+	It seems to control the name of the app
+	reflected in install time.
+
+	Originally, this string was also the value
+	of the 'android:label' attribure of the main
+	activity tag as well - but I changed it so
+	as to see what the difference is in the
+	significance of those two attributes.
+	-->
+    <string name="app_name">Development Sample 1</string>
+
+	<!--
+	In the <activity> tag who's 'android:name'
+	has a value of '.MainActivity', I changed
+	the 'android:label' attribute to reference
+	the following, newly-created string (rather
+	than the above one). As expected, it affects
+	the app name as displayed within the activity.
+	Furthermore, to my surprise, it affects the
+	name of the app as displayed when I go into
+	the Android view that displays *all* apps
+	installed on the device.
+	-->
+    <string name="app_name_2">First Dvl Sample</string>
+
+	<!--
+	The following string is referenced from "main.xml",
+	a file in the "src/main/res/layout" directory.
+	-->
     <string name="hello_world">Hello world!</string>
 
 </resources>
