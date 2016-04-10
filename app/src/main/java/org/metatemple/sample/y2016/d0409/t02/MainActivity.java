@@ -17,6 +17,10 @@ public class MainActivity extends Activity
 	// The following function is referenced
 	// by a button's 'android:onClick' attribute
 	// in the 'main.xml' file.
+	//   Had this function been referenced yet
+	// *not* present, I would have received a
+	// compile-time error telling me that
+	// *unfortunately* my app has stopped.
 	public void do_for_okay (View view)
 	{
 		// This button, of course, does nothing
